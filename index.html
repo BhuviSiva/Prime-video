@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Prime Video </title>
+    <link rel="icon" type="image/x-icon" href="logo new.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link rel="style" href="style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src=" https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+   
+  <body>
+    <!-- navbar start -->
+    <div class="container-fluid">
+      <div class="row" style="background-color: #1a242f";>
+        <div class="col-md-5">
+          <img src="primevideo-logo.png" style="width:25%;"></a>
+        </div>
+
+        <div class="col-md-7" style="padding-top: 10px;display: -webkit-inline-box;">
+          <button type="button" class="btn btn-primary">Home</button>&nbsp;
+          <button type="button" class="btn btn-primary">TV Shows</button>&nbsp;
+          <button type="button" class="btn btn-primary">Movies</button>&nbsp;
+          <button type="button" class="btn btn-primary">Kids</button>&nbsp;
+           <!-- js form for seacrch bar -->
+          <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            <input type="text" name="fname" style="padding-top: 10px;display: -webkit-inline-box;" >
+            <button type="button" class="btn btn-primary" style= margin-top:3px>search</button>&nbsp;
+          </form>
+ 
+             <!-- dropdown for more details -->
+        <div class="btn-group">
+           <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+             Bhuvi <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li> <a class="dropdown-item" href="#">Watchlist </a></li>
+            <li> <a class="dropdown-item" href="#">Watch Anywhere</a><li>
+            <li> <a class="dropdown-item" href="#">Add New Profile</a><li>
+            <li> <a class="dropdown-item" href="#">Manage Profiles</a><li>
+            <li> <a class="dropdown-item" href="#">Accounts & Settings</a><li>
+            <li> <a class="dropdown-item" href="#">Help</a><li>
+            <li> <a class="dropdown-item" href="#">Learn More</a><li>
+          </ul>
+        </div>
+             <!-- dropdown end -->
+      </div> 
+      <!-- navbar end -->
+      <!-- carousel start -->
+        <div class="row">
+          <div class="col-md-12">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+          <li data-target="#myCarousel" data-slide-to="7"></li>
+          <li data-target="#myCarousel" data-slide-to="8"></li>
+          <li data-target="#myCarousel" data-slide-to="9"></li>
+          <li data-target="#myCarousel" data-slide-to="10"></li>
+          <li data-target="#myCarousel" data-slide-to="11"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_BlackAdam_Launch/df4959e3-5f7f-4576-99ed-2d3468c6e5ea._UR3000,600_SX1500_FMwebp_.jpeg" style="width:100%;">
+          </div>
+          
+          <div class="item">
+            <img src="https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_Congratulations_Launch/9cc4eabd-92ed-4cc7-b7e4-5f80b77fda61._UR3000,600_SX1500_FMwebp_.jpeg" style="width:100%;">
+          </div>
+    
+         <div class="item">
+            <img src="https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_CROW_UN_Criminal_LP/5d54a9b7-7aa2-48bc-9fc1-29ca0448fead._UR3000,600_SX1500_FMwebp_.jpeg" style="width:100%;">
+          </div>
+          
+          <div class="item">
+            <img src="https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_TVOD_KnockattheCabin/613afc14-27cb-4b3d-8d1e-4b02c5de8c91._UR3000,600_SX1500_FMwebp_.jpeg" style="width:100%;">
+          </div>
+          
+          <div class="item">
+            <img src="https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_ToofaanReviewsNonPD/1f217f2e-8bb3-4ff9-8c40-25d9c60c00cd._UR3000,600_SX1500_FMwebp_.jpeg" style="width:100%;">
+          </div>
+          
+          <div class="item">
+            <img src="https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_Kantara_Launch/6e90ea91-79d6-42f3-9ad4-f09224c19a63._UR3000,600_SX1500_FMwebp_.jpeg" style="width:100%;">
+          </div>
+          
+          <div class="item">
+            <img src="https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_Drishyam2_Launch/b7faa233-a9bd-4675-8465-cf7316981809._UR3000,600_SX1500_FMwebp_.jpeg" style="width:100%;">
+          </div>
+          
+          <div class="item">
+            <img src="https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_Filmfarewinnners2021V2/28fdb773-6ae3-43d2-a5ed-001f4f2cede4._UR3000,600_SX3000_FMwebp_.jpeg" style="width:100%;">
+          </div>
+          
+          <div class="item">
+            <img src="https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_ScoobRevisedCreatives/d351fd1f-d378-4c3b-8e83-b5ebb668e354._UR3000,600_SX3000_FMwebp_.jpeg" style="width:100%;">
+          </div>
+          
+          <div class="item">
+            <img src="https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_MapOfTinyPerfectThings/de5533a9-0c3f-4f67-9356-5c667a23b382._UR3000,600_SX3000_FMwebp_.jpg" style="width:100%;">
+          </div>
+          
+          <div class="item">
+            <img src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_JumanjiTheNextlevel/759758cc-4f4c-4f0e-a7c0-399c6256ce48._UR3000,600_SX3000_FMwebp_.jpg" style="width:100%;">
+          </div>
+          
+          <div class="item">
+            <img src="https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_CoolieNo1REviewsRegular/1270ebce-620a-45a0-b6c8-e96dca6dab0d._UR3000,600_SX3000_FMwebp_.jpg" style="width:100%;">
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+            </div>
+            <!-- Carousel end -->
+
+            <!-- Carousel for language -->
+
+            
+            <div class="container">
+              <div class="row">
+              <div class="col-md-12">
+              <h3 style="color: white; margin: 10px;">Watch in Your Language</h3>
+          <div id="miniCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+              <li data-target="#miniCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#miniCarousel" data-slide-to="1"></li>
+              <li data-target="#miniCarousel" data-slide-to="2"></li>
+              <li data-target="#miniCarousel" data-slide-to="3"></li>
+              <li data-target="#miniCarousel" data-slide-to="4"></li>
+              <li data-target="#miniCarousel" data-slide-to="5"></li>
+              <li data-target="#miniCarousel" data-slide-to="6"></li>
+              <li data-target="#miniCarousel" data-slide-to="7"></li>
+              <li data-target="#miniCarousel" data-slide-to="8"></li>
+              <li data-target="#miniCarousel" data-slide-to="9"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="col-md-3">
+                <img src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_HinDecRev/ac9ec8b4-a274-4250-9cdf-d5eb36801c6a._UR200,200_SX200_FMwebp_.jpg">
+                <h4 style="color: white; font-family:cursive">Hindi</h4>
+                </div>
+              </div>
+              
+              <div class="item">
+                <div class="col-md-3">
+                <img src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_EngDec/d5ba8998-eacd-4e7d-88c5-df07fe3e4f30._UR200,200_SX200_FMwebp_.jpg">
+                <h4 style="color: white; font-family:cursive">English</h4>
+              </div>
+              </div>
+        
+             <div class="item">
+              <div class="col-md-3">
+                <img src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_TelDec/930aa201-7920-419a-be3b-19f851d66aae._UR200,200_SX200_FMwebp_.jpg">
+                <h4 style="color: white; font-family:cursive">Telugu</h4>
+              </div>
+              </div>
+              
+              <div class="item">
+                <div class="col-md-3">
+                <img src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_TamDec/fd303a3a-d4e9-4ff7-9437-d2fdc0736b8d._UR200,200_SX200_FMwebp_.jpg">
+                <h4 style="color: white; font-family:cursive">Tamil</h4>
+              </div>
+              </div>
+              
+              <div class="item">
+                <div class="col-md-3">
+                <img src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_PunjDec/3b313164-339a-4cb0-9435-ea335f995632._UR200,200_SX200_FMwebp_.jpg">
+                <h4 style="color: white; font-family:cursive">Punjabi</h4>
+              </div>
+              </div>
+              
+              <div class="item">
+                <div class="col-md-3">
+                <img src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_MarDec/e813e13e-a867-4e5d-989f-c82e3c5be3da._UR200,200_SX200_FMwebp_.jpg">
+                <h4 style="color: white; font-family:cursive">Marathi</h4>
+              </div>
+              </div>
+              
+              <div class="item">
+                <div class="col-md-3">
+                <img src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_KanDec/872afeb6-6e3c-4238-8425-0fbed8a98d18._UR200,200_SX200_FMwebp_.jpg">
+                <h4 style="color: white; font-family:cursive">Kannada</h4>
+              </div>
+              </div>
+              
+              <div class="item">
+                <div class="col-md-3">
+                <img src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_MalDec/3eff5a15-78c8-4906-a233-aa050c4c2a72._UR200,200_SX200_FMwebp_.jpg">
+                <h4 style="color: white; font-family:cursive">Malayalam</h4>
+              </div>
+              </div>
+              
+              <div class="item">
+                <div class="col-md-3">
+                <img src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_BengDec/12b33034-9d91-4e43-b829-9af63bc7757b._UR200,200_SX200_FMwebp_.jpg">
+                <h4 style="color: white; font-family:cursive">Bengali</h4>
+                </div>
+              </div>
+              
+              <div class="item">
+                <div class="col-md-3">
+                <img src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_GujDec/b93c0e6d-5652-4043-a7a7-9d74e4556fd2._UR200,200_SX200_FMwebp_.jpg">
+                <h4 style="color: white; font-family:cursive">Gujarati</h4>
+                </div>
+              </div>
+              
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#miniCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#miniCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+                </div>
+            
+            <!-- Recommended shows start -->
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 style="color: white">Recommended Shows</h3>
+                </div>
+              </div>
+
+              <div class="row">
+          <div class="col-md-3">
+            <img id="img1" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/7ea94385a3ba3c90f46d8a7815088df406aee488025633d0751b904ef4f1de87._UR1920,1080_RI_UX400_UY225_.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="cd1" style="display:none;">
+              <img src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/7ea94385a3ba3c90f46d8a7815088df406aee488025633d0751b904ef4f1de87._UR1920,1080_RI_UX400_UY225_.jpg" class="card-img-top" style="width:100%"></img>
+            <div class="card-body">
+               <h4 class="card-title" style="color:white">God Friended Me</h4>
+              <p class="card-text" style="color:white">
+                <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play S1 Ep1
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+
+GOD FRIENDED ME is a humorous, uplifting drama about an outspoken atheist whose life is turned upside down when he receiv...
+</p>           <p class="card-text" style="color:white">Genres: Drama, Comedy</p>
+               <span style="font-size:1.5rem;color:white;">2019 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U</span>
+            </div>
+            </div>
+          </div>
+                </a>
+              
+              <div class="col-md-3">
+            <img id="img2" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/8c099cfea48c22ff3599d30b5cb6d2d07b29bf7b81afa9f00b201f07922d3896._UR1920,1080_RI_UX400_UY225_.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="cd2" style="display:none;">
+              <img src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/8c099cfea48c22ff3599d30b5cb6d2d07b29bf7b81afa9f00b201f07922d3896._UR1920,1080_RI_UX400_UY225_.jpg" class="card-img-top" style="width:100%"></img>
+            <div class="card-body">
+               <h4 class="card-title" style="color:white"> Gortimer Gibbon's Life on Normal Street</h4>
+              <p class="card-text" style="color:white">
+                 <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play S1 Ep1
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+
+Life is anything but normal for Gortimer and his two best friends, Ranger and Mel, as they navigate Normal Street - an...
+</p>           <p class="card-text" style="color:white">Genres: Kids</p>
+              <span style="font-size:1.5rem;color:white;">2016 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U</span>
+            </div>
+            </div>
+          </div>
+              </a>
+            
+              
+  <div class="col-md-3">
+            <img id="img3" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/08a72b3fc5bc4231726c8c6fef348c29aea504756c68524ec928c2a984b5c4ae._UR1920,1080_RI_UX400_UY225_.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="cd3" style="display:none;">
+              <img src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/08a72b3fc5bc4231726c8c6fef348c29aea504756c68524ec928c2a984b5c4ae._UR1920,1080_RI_UX400_UY225_.jpg" class="card-img-top" style="width:100%"></img>
+            <div class="card-body">
+               <h4 class="card-title" style="color:white">Psych</h4>
+              <p class="card-text" style="color:white">
+                 <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play S1 Ep1
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+
+James Roday plays the somewhat eccentric Shawn Spencer, a police consultant who solves crimes with powers of observatio...</p>           <p class="card-text" style="color:white">Genres: Comedy, Mystery</p>
+              <span style="font-size:1.5rem;color:white;">2007 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U/A 13+</span>
+            </div>
+            </div>
+          </div>
+            </a>
+       
+
+          <div class="col-md-3">
+            <img id="img4" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/643b2d3b2f55f44949858c747b5a3da9198e4b3f477b8dc5fa15cb9c6cfe106f._UR1920,1080_RI_UX400_UY225_.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="cd4" style="display:none;">
+              <img src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/643b2d3b2f55f44949858c747b5a3da9198e4b3f477b8dc5fa15cb9c6cfe106f._UR1920,1080_RI_UX400_UY225_.jpg" class="card-img-top" style="width:100%"></img>
+            <div class="card-body">
+               <h4 class="card-title" style="color:white">Scorpion</h4>
+              <p class="card-text" style="color:white">
+                 <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play S1 Ep1
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+
+Scorpion is based on the true story of Walter O'Brien, an eccentric genius with the world's fourth-highest I.Q. and the...
+</p>           <p class="card-text" style="color:white">Genres: Drama</p>
+              <span style="font-size:1.5rem;color:white;">2015 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U/A 13+</span>
+            </div>
+            </div>
+          </div>
+          </a>
+          <!-- Recommended shows end -->         
+          
+          <!-- Recommended movies start -->
+          <div class="row">
+                <div class="col-md-12">
+                  <h3 style="color: white">Recommended Movies</h3>
+                </div>
+              </div>
+              <div class="row">
+          <div class="col-md-3">
+            <img id="image1" src=" https://assets.thehansindia.com/h-upload/2021/05/11/1600x960_1075708-wonder-woman.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card1" style="display:none;">
+               <video id="video1" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src="https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/69f4/2b75/fa45/4b1e-8816-a8a5972ce3c8/f84cd9e4-7b54-41db-bc76-32da2998bed4_video_480p_900kbps_audio_aaclc_128kbps.mp4" type="video/mp4">
+  <source src="https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/69f4/2b75/fa45/4b1e-8816-a8a5972ce3c8/f84cd9e4-7b54-41db-bc76-32da2998bed4_video_480p_900kbps_audio_aaclc_128kbps.mp4" type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">Wonder Woman 1984</h4>
+              <p class="card-text" style="color:white">
+ <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+
+In Wonder Woman 1984, the fate of the world is once more on the line, and only Wonder Woman can save it. This new...
+</p>           
+              <p class="card-text" style="color:white">Genres: Science Fiction, Action</p>
+              <span style="font-size:1.5rem;color:white;">2h 31min &nbsp;</span><span style="font-size:1.5rem;color:white;">2020 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U/A 13+</span>
+            </div>
+            </div>
+                  </div> </a>
+                 <div class="col-md-3">
+            <img id="image2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZK_2EV-S3-I4CpGGlSvse32sx6jogfnUjYBmPvLZcZKpiok7zJ-6fninhLJIBStTWwtQ&usqp=CAU" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card2" style="display:none;">
+               <video id="video2" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src="https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/949c/6a2f/927a/4247-8f50-964e7c5d9611/1865de39-9f38-44b9-bbc9-d681f2e7a91a_video_480p_900kbps_audio_aaclc_128kbps.mp4" type="video/mp4">
+  <source src="https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/949c/6a2f/927a/4247-8f50-964e7c5d9611/1865de39-9f38-44b9-bbc9-d681f2e7a91a_video_480p_900kbps_audio_aaclc_128kbps.mp4" type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">Sherlock Holmes</h4>
+              <p class="card-text" style="color:white">
+ <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+
+From director Guy Ritchie (Rocknrolla, Lock, Stock and Two Smoking Barrels) comes an all-new take on the classic...
+
+              </p>           
+              <p class="card-text" style="color:white">Genres: Drama, Action</p>
+              <span style="font-size:1.5rem;color:white;">2h 8min &nbsp;</span><span style="font-size:1.5rem;color:white;">2009 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U/A 13+</span>
+            </div>
+            </div>
+                     </div> </a>
+           <div class="col-md-3">
+              <img id="image3" src=" https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/817c10d6b37ae33b0b1a5641dcfee00343d85a24fe92787b4b44aa9a175fe0df._UR1920,1080_RI_UX400_UY225_.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card3" style="display:none;">
+              <video id="video3" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src="https://s3-iad-2.cf.trailer.row.aiv-cdn.net/ee3e/1be1/8fee/4ae1-ae56-9d4317b9ab1b/f36ecc1b-16ce-4a68-877a-a2985fc70cec_video_900_audio_aaclc_128.mp4?Expires=1621095535&Signature=EcWzgNS-yVrWy20pTwXFsuMJTOqq~VrgitkrKC6we3dxOowTkaL84lrK0Hht6gcGjjRvCJBUroYOkiCSefheka9IH3H1oXy3W-dx~RcKxeif5ccLaXWLiqhVQaHA764bgaGxss5uFKqXS4pjLARtUlPbUWCRQuSicV2XuripjDwOgqhUuBr3Om22029h52VXF0JUNLPXa1pThX6cZ8YyuNQHf6~hhXA8ZxifDu3I-ks9OK2~WVdEh1LJFv7TSlKyha11DvRcw2w0cnbGNAYqg~TaMBReWqubJU1Y20~DRdzIRJpbq3KHIxifjSqVFDhwRm~Qow6z1oo58gCH8WGl7Q__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA" type="video/mp4">
+  <source src="https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/69f4/2b75/fa45/4b1e-8816-a8a5972ce3c8/f84cd9e4-7b54-41db-bc76-32da2998bed4_video_480p_900kbps_audio_aaclc_128kbps.mp4" type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">Johnny English</h4>
+              <p class="card-text" style="color:white">
+                 <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+
+When the Crown Jewels are stolen, bumbling Johnny English (Rowan Atkinson) is the only secret agent in the...
+</p>           
+              <p class="card-text" style="color:white">Genres: Action, Adventure, Kids</p>
+              <span style="font-size:1.5rem;color:white;">1h 27min &nbsp;</span><span style="font-size:1.5rem;color:white;">2003 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U</span>
+            </div>
+            </div>
+                </div> </a> 
+           <div class="col-md-3"> 
+             <img id="image4" src=" https://i1.wp.com/fullcirclecinema.com/wp-content/uploads/2020/09/wJ4s9FFL6FdxAoKixtr4FS.jpg?resize=960%2C640&ssl=1" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card4" style="display:none;">
+              <video id="video4" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src="https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/ede7/fa93/5d50/45dd-ae4b-9a7bd85fed1c/01e0a681-bc53-4afc-bf9f-2deadbb533e3_video_480p_900kbps_audio_aaclc_128kbps.mp4" type="video/mp4">
+  <source src="https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/69f4/2b75/fa45/4b1e-8816-a8a5972ce3c8/f84cd9e4-7b54-41db-bc76-32da2998bed4_video_480p_900kbps_audio_aaclc_128kbps.mp4" type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">Tenet</h4>
+              <p class="card-text" style="color:white">
+ <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+
+Armed with only one word—Tenet—and fighting for the survival of the entire world, the Protagonist journeys through...
+</p>           
+              <p class="card-text" style="color:white">Genres: Science Fiction, Drama, Action</p>
+              <span style="font-size:1.5rem;color:white;">2h 30min &nbsp;</span><span style="font-size:1.5rem;color:white;">2020 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U/A 13+</span>
+            </div>
+            </div>
+               </div>       </a>
+ <div class="row">
+                <div class="col-md-12">
+                  <h2 style="color: white">Amazon originals</h2>
+                </div>
+              </div>
+              <div class="row">
+          <div class="col-md-3">
+                            <img id="image5" src="https://upload.wikimedia.org/wikipedia/en/2/22/Pushpavalli_%28TV_series%29_poster.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card5" style="display:none;">
+               <video id="video5" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/a871/7024/ba1b/42f6-a049-19081cb5bd94/76d161d7-22f7-40ab-991d-a31ca7ce41f2_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/mp4">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/a871/7024/ba1b/42f6-a049-19081cb5bd94/76d161d7-22f7-40ab-991d-a31ca7ce41f2_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">Pushpavalli</h4>
+              <p class="card-text" style="color:white">
+                 <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play S1 Ep1
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+
+Pushpavalli was supposed to finish her Food Science degree and marry a man that her mother approved of. All that change...
+</p>           
+              <p class="card-text" style="color:white">Genres: International, Drama, Comedy</p>
+              <span style="font-size:1.5rem;color:white;">2017 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U/A 16+</span>
+            </div>
+            </div>
+                   </div> </a>
+                        <div class="col-md-3">
+<img id="image6" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/dc0be6ae04e6eb4ea5fd564250445f38c0fe6243fc1a9d20ed9e93575ecaf561._UR1920,1080_PGLock-Icon-Landscape_RI_UX400_UY225_.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card6" style="display:none;">
+               <video id="video6" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/2307/c926/b675/4ebe-87c5-345e25f40804/32f86d9b-6c23-4bf6-99ab-83730285e9a2_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/mp4">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/2307/c926/b675/4ebe-87c5-345e25f40804/32f86d9b-6c23-4bf6-99ab-83730285e9a2_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">Family Man</h4>
+              <p class="card-text" style="color:white">
+ <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play S1 Ep1
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+
+The Family Man is an edgy action-drama series, which tells the story of a middle-class man who works for a special cell of...
+</p>           
+              <p class="card-text" style="color:white">Genres: Drama, Action</p>
+              <span style="font-size:1.5rem;color:white;">2019 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">A</span>
+            </div>
+            </div>
+                  </div> </a>
+           <div class="col-md-3" >
+           <img id="image7" src="https://images-na.ssl-images-amazon.com/images/I/91quOCF4lyL._RI_.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card7" style="display:none;">
+               <video id="video7" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/a1a3/b2bb/6f33/4ac4-8155-9c0e6e682475/f33093b8-a5ed-4202-91cc-7aa43c02a36e_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/mp4">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/a1a3/b2bb/6f33/4ac4-8155-9c0e6e682475/f33093b8-a5ed-4202-91cc-7aa43c02a36e_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">Tom Clancy's Jack Ryan</h4>
+              <p class="card-text" style="color:white">
+
+ <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play S1 Ep1
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+When CIA analyst Jack Ryan stumbles upon a suspicious series of bank transfers his search for answers pulls him from the...
+</p>           
+              <p class="card-text" style="color:white">Genres: Suspense, Drama, Action, Military and War</p>
+              <span style="font-size:1.5rem;color:white;">2018 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U/A 16+</span>
+            </div>
+            </div>
+          </div>     
+                      <div class="col-md-3">
+          <img id="image8" src="https://i.ytimg.com/vi/-SEBwTQRXS0/maxresdefault.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card8" style="display:none;">
+               <video id="video8" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/fc4c/c104/cd36/4bea-bb7f-17bdb16960c1/5f873b81-c575-4c2f-86b2-49634d203e72_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/mp4">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/fc4c/c104/cd36/4bea-bb7f-17bdb16960c1/5f873b81-c575-4c2f-86b2-49634d203e72_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">LOL Hasse Toh Phasse</h4>
+              <p class="card-text" style="color:white">
+
+ <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play S1 Ep1
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+
+Hosted by Boman Irani and Arshad Warsi, 10 of India’s most entertaining comedians face a unique challenge - survive 6 hours...
+</p>           
+              <p class="card-text" style="color:white">Genres: Unscripted, Comedy</p>
+              <span style="font-size:1.5rem;color:white;">2021 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">A</span>
+            </div>
+            </div>
+          </div>
+ <div class="row">
+                <div class="col-md-12">
+                  <h2 style="color: white">Movies in Hindi</h2>
+                </div>
+              </div>
+              <div class="row">
+          <div class="col-md-3">
+  <img id="image9" src="https://images.cinemaexpress.com/uploads/user/imagelibrary/2020/5/1/original/3_Idiots.PNG" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card9" style="display:none;">
+               <video id="video9" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src=https://s3-iad-2.cf.trailer.row.aiv-cdn.net/9614/a01e/4efb/4ad4-a9dd-13e3d6784195/aa69459b-78ea-4cfd-970a-c0924d0ab1a2_video_900_audio_aaclc_128.mp4?Expires=1625335264&Signature=D7WlPZ8DRtWRyGJu-Fv5FQyAJt6bgV7k6VtzPfvgKhO1yNnW1WAssM9JTc-stgudfOsjS2je4Gmv4Q8-npJ5cTWWBJQa9FeNz1DhiNI8FbB47gpNdu4BXnIMWegIQPlhqO6i8D4wG4CwJ7VrnaIHt7C1-U4iqYolEpiWS43itBGumf6UXqbQJjJIk3pEpgPS3w6bhP0goOMBxlo5x6XG6L8Q8cN1dL4nVaghAWqYBszmdME4FQhQVhkSaoqoFa6QGA8elobQ9faFBdVFmtvotdPGtcKJW~48zMUnF46JQ5T3KzT90VMElKtedTqUWQS0UxdnfB2dsd~hD2KH8AUHWA__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA type="video/mp4">
+  <source src=https://s3-iad-2.cf.trailer.row.aiv-cdn.net/9614/a01e/4efb/4ad4-a9dd-13e3d6784195/aa69459b-78ea-4cfd-970a-c0924d0ab1a2_video_900_audio_aaclc_128.mp4?Expires=1625335264&Signature=D7WlPZ8DRtWRyGJu-Fv5FQyAJt6bgV7k6VtzPfvgKhO1yNnW1WAssM9JTc-stgudfOsjS2je4Gmv4Q8-npJ5cTWWBJQa9FeNz1DhiNI8FbB47gpNdu4BXnIMWegIQPlhqO6i8D4wG4CwJ7VrnaIHt7C1-U4iqYolEpiWS43itBGumf6UXqbQJjJIk3pEpgPS3w6bhP0goOMBxlo5x6XG6L8Q8cN1dL4nVaghAWqYBszmdME4FQhQVhkSaoqoFa6QGA8elobQ9faFBdVFmtvotdPGtcKJW~48zMUnF46JQ5T3KzT90VMElKtedTqUWQS0UxdnfB2dsd~hD2KH8AUHWA__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">3 Idiots</h4>
+              <p class="card-text" style="color:white">
+                 <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+
+3 Idiots Is An Award Winning Bollywood Comedy Movie, Directed By Rajkumar Hirani, Starring Aamir Khan And Kareena...
+</p>           
+              <p class="card-text" style="color:white">Genres: Comedy, Drama</p>
+              <span style="font-size:1.5rem;color:white;">2h 44min &nbsp;</span><span style="font-size:1.5rem;color:white;">2009 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U/A 13+</span>
+            </div>
+            </div>
+          </div>
+                        <div class="col-md-3">
+  <img id="image10" src="http://bollykeys.com/wp-content/uploads/2011/11/DilChahta1.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card10" style="display:none;">
+               <video id="video10" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src=https://s3-bom-ww.cf.trailer.row.aiv-cdn.net/a097/3651/aa1d/425b-afac-437be59fbbdb/8940f196-0181-4904-a1ad-e4aa141ca745_video_900_audio_aaclc_128.mp4?Expires=1625335264&Signature=kg6OZrGrudf288aj9XSRQzYkb9RY2Q7G3NXiqZOwjQpdHzFYLnRWS7XVyJ~ax7YxEktymTlweRFuShX8PYdCpoPHZEbWOWSK8-UI2C-Js6fnyR5L1tPlbInk7m2x-JdB-OjsX11-ULUWkVN5dJRH-b2E20Ebc4ezMlWrrqRMFL3yAzr2luceEtHgP7dc~xNFvqbfKdnRs5enz7ZAfxCLIUAWp5fNUp~oZrOYvYbdXNekxqWspHr27Eqf4g0ibPvWQGguBRt11OyCW5WZzrhpndBqgFjITeD1ghiUwa2qxUZgvbyDMPkT4X-NK4GC8y73l6iS--Pj4SVPllX7vzOK5w__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA type="video/mp4">
+  <source src=https://s3-bom-ww.cf.trailer.row.aiv-cdn.net/a097/3651/aa1d/425b-afac-437be59fbbdb/8940f196-0181-4904-a1ad-e4aa141ca745_video_900_audio_aaclc_128.mp4?Expires=1625335264&Signature=kg6OZrGrudf288aj9XSRQzYkb9RY2Q7G3NXiqZOwjQpdHzFYLnRWS7XVyJ~ax7YxEktymTlweRFuShX8PYdCpoPHZEbWOWSK8-UI2C-Js6fnyR5L1tPlbInk7m2x-JdB-OjsX11-ULUWkVN5dJRH-b2E20Ebc4ezMlWrrqRMFL3yAzr2luceEtHgP7dc~xNFvqbfKdnRs5enz7ZAfxCLIUAWp5fNUp~oZrOYvYbdXNekxqWspHr27Eqf4g0ibPvWQGguBRt11OyCW5WZzrhpndBqgFjITeD1ghiUwa2qxUZgvbyDMPkT4X-NK4GC8y73l6iS--Pj4SVPllX7vzOK5w__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTAtype="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">Dil Chahta Hai</h4>
+              <p class="card-text" style="color:white">
+                 <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+
+Three superstars Aamir Khan, Saif Ali Khan and Akshaye Khanna come together to make the most spectacular romantic...
+
+</p>           
+              <p class="card-text" style="color:white">Genres: Comedy, Drama, Romance</p>
+              <span style="font-size:1.5rem;color:white;">3h 5min &nbsp;</span><span style="font-size:1.5rem;color:white;">2001 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U</span>
+            </div>
+            </div>
+          </div>
+           <div class="col-md-3">
+        <img id="image11" src="https://images004-a.erosnow.com/movie/0/1067860/img625352/6970869/1067860_6970869.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card11" style="display:none;">
+               <video id="video11" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src=https://s3-dub-2.cf.trailer.row.aiv-cdn.net/f2a2/c4cc/7f44/41e5-85a0-b6b2ce564fbb/07289fdd-9701-4608-b916-dc94cbab587b_video_900_audio_aaclc_128.mp4?Expires=1625335264&Signature=Bt~R83Kv5oZlj4jf416oFPrn67KUcUvo8oK3iIcPL6hjH9PWnxouFmvkwjSWRxEQFuL16hMw2symR9~yeW7PBOVBIkVk5D2l4GdMA91L49BLN3Ih2v71H~98CXdzZ85tsDG7gJ7C-MaCB0T0O4H0NOOIXlzPOHLqknWYGjPMGFeYihsECek31K-mqFp8lXl6ylUfB9JEOyh2WS-orf5MDBATvt18yDHHnt9sed1~Ad6wirRmcSUsu8wO49TI2GxC1Qs0n-t5-OefOi1X9vZ-HknZDacuD73sYfCaJbU8fXacYoHOZ7fVQ~SX7zJloxah0sZ24kZPjYMuzJUkzPIN~Q__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA type="video/mp4">
+  <source src=https://s3-dub-2.cf.trailer.row.aiv-cdn.net/f2a2/c4cc/7f44/41e5-85a0-b6b2ce564fbb/07289fdd-9701-4608-b916-dc94cbab587b_video_900_audio_aaclc_128.mp4?Expires=1625335264&Signature=Bt~R83Kv5oZlj4jf416oFPrn67KUcUvo8oK3iIcPL6hjH9PWnxouFmvkwjSWRxEQFuL16hMw2symR9~yeW7PBOVBIkVk5D2l4GdMA91L49BLN3Ih2v71H~98CXdzZ85tsDG7gJ7C-MaCB0T0O4H0NOOIXlzPOHLqknWYGjPMGFeYihsECek31K-mqFp8lXl6ylUfB9JEOyh2WS-orf5MDBATvt18yDHHnt9sed1~Ad6wirRmcSUsu8wO49TI2GxC1Qs0n-t5-OefOi1X9vZ-HknZDacuD73sYfCaJbU8fXacYoHOZ7fVQ~SX7zJloxah0sZ24kZPjYMuzJUkzPIN~Q__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">Zindagi Na Milegi Dobara</h4>
+              <p class="card-text" style="color:white">
+ <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+The story about three old friends, Kabir (Abhay Deol), Arjun (Hrithik Roshan) and Imraan (Farhan Akhtar), reuniting after...
+
+</p>           
+              <p class="card-text" style="color:white">Genres: Drama, Comedy</p>
+              <span style="font-size:1.5rem;color:white;">2h 34min &nbsp;</span><span style="font-size:1.5rem;color:white;">2011 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U/A 13+</span>
+            </div>
+            </div>
+          </div>     
+                      <div class="col-md-3">
+            <img id="image12" src="https://i2.cinestaan.com/image-bank/1500-1500/61001-62000/61360.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card12" style="display:none;">
+               <video id="video12" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src=https://s3-iad-2.cf.trailer.row.aiv-cdn.net/a425/c674/dad6/40f5-adfc-704e6e6e2461/c2aac5b9-8dcd-4e77-b7ba-b47798a64f11_video_900_audio_aaclc_128.mp4?Expires=1625335750&Signature=XcYHCmvvIot2YIv2ZvdU9YOryma9JxJJxJb3kyws7PxqKNYtbV7fl4-RKfyVVCOyiKJKlIRNfiJL9YamZb7EYUxlTx6BmJaRH2GSqvZZeBS~0-HC9zAtl2gAUdZD~8a1k4x92EGyMKkuHiGXhPIvKATXmMe4FGcLFN99nd50OmcadfeN7ITu7opwukLt4F-xlXh3tc7L7MBdTabKebYJfOrt8sL0D-E3mkgDqBsB~pgJWsl5jsgrjuzBvaB6CLNuIcLzbFAlooMuVl6PWrwOrYkRF0pEnTm1RvrlFj7M6rWr3~VXWve8APH-3RSfysa4b-cQ0uPMisD2A5tK6nvbbQ__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA type="video/mp4">
+  <source src=https://s3-iad-2.cf.trailer.row.aiv-cdn.net/a425/c674/dad6/40f5-adfc-704e6e6e2461/c2aac5b9-8dcd-4e77-b7ba-b47798a64f11_video_900_audio_aaclc_128.mp4?Expires=1625335750&Signature=XcYHCmvvIot2YIv2ZvdU9YOryma9JxJJxJb3kyws7PxqKNYtbV7fl4-RKfyVVCOyiKJKlIRNfiJL9YamZb7EYUxlTx6BmJaRH2GSqvZZeBS~0-HC9zAtl2gAUdZD~8a1k4x92EGyMKkuHiGXhPIvKATXmMe4FGcLFN99nd50OmcadfeN7ITu7opwukLt4F-xlXh3tc7L7MBdTabKebYJfOrt8sL0D-E3mkgDqBsB~pgJWsl5jsgrjuzBvaB6CLNuIcLzbFAlooMuVl6PWrwOrYkRF0pEnTm1RvrlFj7M6rWr3~VXWve8APH-3RSfysa4b-cQ0uPMisD2A5tK6nvbbQ__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">Lage Raho Munna Bhai</h4>
+              <p class="card-text" style="color:white">
+ <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+Lage Raho Munna Bhai Is A National Award Winning Bollywood Comedy Hindi Movie, Directed By Rajkumar Hirani, Starring...
+
+</p>           
+              <p class="card-text" style="color:white">Genres: Comedy, Drama, Fantasy</p>
+              <span style="font-size:1.5rem;color:white;">2h 19min &nbsp;</span><span style="font-size:1.5rem;color:white;">2006 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U</span>
+            </div>
+            </div>
+          </div> 
+ <div class="row">
+                <div class="col-md-12">
+                  <h2 style="color: white">TV Shows we think you may like</h2>
+                </div>
+              </div>
+              <div class="row">
+          <div class="col-md-3">
+            <img id="image13" src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/278528df7eb08b4e1d09281cf8fddec21f9a58288a232423e4d65c1258a3ca1a._RI_V_TTW_.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card13" style="display:none;">
+               <video id="video13" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/9926/9d1b/3fb4/4140-b2b1-7c4b3e186c50/21607b6d-0f9d-40ce-ab62-fe4f01d43fd5_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/mp4">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/9926/9d1b/3fb4/4140-b2b1-7c4b3e186c50/21607b6d-0f9d-40ce-ab62-fe4f01d43fd5_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">The Office</h4>
+              <p class="card-text" style="color:white">
+ <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play S1 Ep1
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+In this first season of The Office, Dunder Mifflin Regional Manager Michael Scott (Steve Carell) leads the documentary tea...
+</p>           
+              <p class="card-text" style="color:white">Genres: Comedy</p>
+              <span style="font-size:1.5rem;color:white;">2005 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U/A 13+</span>
+            </div>
+            </div>
+                </div>
+                        <div class="col-md-3">
+          <img id="image14" src="https://pbs.twimg.com/media/Dby9cMCWkAADyvH.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card14" style="display:none;">
+               <video id="video14" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src=https://s3-iad-2.cf.trailer.row.aiv-cdn.net/c803/f6b0/3d3f/48a9-97d9-d1be906fcb11/392882d2-50ce-4318-b63c-57304686e5b9_video_900_audio_aaclc_128.mp4?Expires=1625336062&Signature=ZmU8Ew~5ljqIghiEKzd7N-7LF1g0O9rpypPx52cRpPNVt9a0wTxdpivo8U2Zi1tV9~bEqdFdm~fBeG4ZLxdnnZbQ8USNsW9JoPXbyVfBMJDBY-YW0DgRs0GHu5unoeM3h0Mh1Qi~GdAMZ7vP4e~ALj5aFYjjawHk0Y2HrNlZesYJ9u8yL4cuqNhQuU6EpX5Blq3fwIRU2T9Kg4auNLb1NSrTSnRZ11fXT6BLNDTxEnNmexieKH5atPjbg6kLW-mzZxoIZe6YLYAAj7MlyCURYeBOgB2ED5~OMuXQ9ve3pUsGesMHnpScRFrFhCBnnOG5c5MloeetNK-5neVNZOx6Gw__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA type="video/mp4">
+  <source src=https://s3-iad-2.cf.trailer.row.aiv-cdn.net/c803/f6b0/3d3f/48a9-97d9-d1be906fcb11/392882d2-50ce-4318-b63c-57304686e5b9_video_900_audio_aaclc_128.mp4?Expires=1625336062&Signature=ZmU8Ew~5ljqIghiEKzd7N-7LF1g0O9rpypPx52cRpPNVt9a0wTxdpivo8U2Zi1tV9~bEqdFdm~fBeG4ZLxdnnZbQ8USNsW9JoPXbyVfBMJDBY-YW0DgRs0GHu5unoeM3h0Mh1Qi~GdAMZ7vP4e~ALj5aFYjjawHk0Y2HrNlZesYJ9u8yL4cuqNhQuU6EpX5Blq3fwIRU2T9Kg4auNLb1NSrTSnRZ11fXT6BLNDTxEnNmexieKH5atPjbg6kLW-mzZxoIZe6YLYAAj7MlyCURYeBOgB2ED5~OMuXQ9ve3pUsGesMHnpScRFrFhCBnnOG5c5MloeetNK-5neVNZOx6Gw__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">Citizen Khan</h4>
+              <p class="card-text" style="color:white">
+ <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play S1 Ep1
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+The trials and tribulations of a larger-than-life self-appointed Muslim community leader.
+</p>           
+              <p class="card-text" style="color:white">Genres: Comedy</p>
+              <span style="font-size:1.5rem;color:white;">2012 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U/A 7+</span>
+            </div>
+            </div>
+          </div>
+           <div class="col-md-3">
+    <img id="image15" src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/066c2eef8f2f7f486ee91aae8aa2ea266a27a0ba29ed2b83e266442c485847d9._RI_V_TTW_.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card15" style="display:none;">
+               <video id="video15" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/b4b3/3ebb/e463/4320-8f83-0eead41e7cef/a4906f2a-eb2c-4d4d-b512-ae4a84553b5d_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/mp4">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/b4b3/3ebb/e463/4320-8f83-0eead41e7cef/a4906f2a-eb2c-4d4d-b512-ae4a84553b5d_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">The Marvelous Mrs. Maisel</h4>
+              <p class="card-text" style="color:white">
+ <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play S1 Ep1
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+In 1958 New York, Midge Maisel’s life is on track– husband, kids, and elegant Yom Kippur dinners in their Upper West Side...
+</p>           
+              <p class="card-text" style="color:white">Genres: Drama, Comedy</p>
+              <span style="font-size:1.5rem;color:white;">2017 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U/A 16+</span>
+            </div>
+            </div>
+          </div>     
+                      <div class="col-md-3">
+            <img id="image16" src="https://images-na.ssl-images-amazon.com/images/I/815IlBVOaCL._RI_.jpg" width="100%" height="100%" class="card-img-top" style="height:208px;"/>
+            <div class="card card-effect" id="card16" style="display:none;">
+               <video id="video16" width="100%" height="100%" controls playsinline autoplay muted="muted" class="card-img-top">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/3917/a53b/1a27/49e2-adfc-510743a35459/5b3f39d6-dff7-4d00-b38a-1bda4031f977_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/mp4">
+  <source src=https://s3.ll.videorolls.row.aiv-cdn.net/ww_sin/3917/a53b/1a27/49e2-adfc-510743a35459/5b3f39d6-dff7-4d00-b38a-1bda4031f977_video_480p_900kbps_audio_aaclc_128kbps.mp4 type="video/ogg">
+Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h4 class="card-title" style="color:white">Man With A Plan</h4>
+              <p class="card-text" style="color:white">
+                 <br>
+              <i class="glyphicon glyphicon-play-circle" style="font-size: 2rem;"></i> &nbsp;Play S1 Ep1
+                <i class="glyphicon glyphicon-ban-circle" style="font-size: 2rem;float:right;padding-left:15px;"></i>
+                <i class="glyphicon glyphicon-plus" style="font-size: 2rem;float:right;"></i><br><br>
+Man With A Plan stars Golden Globe Award winner Matt LeBlanc in a comedy about a contractor who starts spending more tim...
+</p>           
+              <p class="card-text" style="color:white">Genres: Drama</p>
+              <span style="font-size:1.5rem;color:white;">2017 &nbsp;</span><span style="font-size:1.5rem;color:white;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;border:2px solid white;border-radius:5px;">U</span>
+            </div>
+            </div>
+          </div>              
+                
+          </div>
+        </div>
+          </div>
+    </div>
+
+      <script>
+
+         // Getting video element using jQuery
+         var video1 = $("#video1");
+           var image1 = $("#image1");
+           
+           // Check if video is ready to play
+           $(video1).on('canplay', function(){
+             $(image1).mouseenter(function(){
+               $("#image1").css("display", "none");
+               $("#card1").css("display", "block");
+               $(video1).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image1").css("display", "none");
+                 $("#card1").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image1").css("display", "block");
+                 $("#card1").css("display", "none");              
+             })
+             })
+           });
+           
+           // Getting video element using jQuery
+           var video2 = $("#video2");
+           var image2 = $("#image2");
+           
+           // Check if video is ready to play
+           $(video2).on('canplay', function(){
+             $(image2).mouseenter(function(){
+               $("#image2").css("display", "none");
+               $("#card2").css("display", "block");
+               $(video2).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image2").css("display", "none");
+                 $("#card2").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image2").css("display", "block");
+                 $("#card2").css("display", "none");              
+             })
+             })
+           });
+           
+            // Getting video element using jQuery
+           var video3 = $("#video3");
+           var image3 = $("#image3");
+           
+           // Check if video is ready to play
+           $(video3).on('canplay', function(){
+             $(image3).mouseenter(function(){
+               $("#image3").css("display", "none");
+               $("#card3").css("display", "block");
+               $(video3).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image3").css("display", "none");
+                 $("#card3").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image3").css("display", "block");
+                 $("#card3").css("display", "none");              
+             })
+             })
+           });
+         
+           // Getting video element using jQuery
+           var video4 = $("#video4");
+           var image4 = $("#image4");
+           
+           // Check if video is ready to play
+           $(video4).on('canplay', function(){
+             $(image4).mouseenter(function(){
+               $("#image4").css("display", "none");
+               $("#card4").css("display", "block");
+               $(video4).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image4").css("display", "none");
+                 $("#card4").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image4").css("display", "block");
+                 $("#card4").css("display", "none");              
+             })
+             })
+           });
+         
+           // Getting video element using jQuery
+           var video5 = $("#video5");
+           var image5 = $("#image5");
+           
+           // Check if video is ready to play
+           $(video5).on('canplay', function(){
+             $(image5).mouseenter(function(){
+               $("#image5").css("display", "none");
+               $("#card5").css("display", "block");
+               $(video5).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image5").css("display", "none");
+                 $("#card5").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image5").css("display", "block");
+                 $("#card5").css("display", "none");              
+             })
+             })
+           });  
+          
+           // Getting video element using jQuery
+           var video6 = $("#video6");
+           var image6 = $("#image6");
+           
+           // Check if video is ready to play
+           $(video6).on('canplay', function(){
+             $(image6).mouseenter(function(){
+               $("#image6").css("display", "none");
+               $("#card6").css("display", "block");
+               $(video6).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image6").css("display", "none");
+                 $("#card6").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image6").css("display", "block");
+                 $("#card6").css("display", "none");              
+             })
+             })
+           });
+          
+          // Getting video element using jQuery
+           var video7 = $("#video7");
+           var image7 = $("#image7");
+           
+           // Check if video is ready to play
+           $(video7).on('canplay', function(){
+             $(image7).mouseenter(function(){
+               $("#image7").css("display", "none");
+               $("#card7").css("display", "block");
+               $(video7).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image7").css("display", "none");
+                 $("#card7").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image7").css("display", "block");
+                 $("#card7").css("display", "none");              
+             })
+             })
+           });
+          
+          // Getting video element using jQuery
+           var video8 = $("#video8");
+           var image8 = $("#image8");
+           
+           // Check if video is ready to play
+           $(video8).on('canplay', function(){
+             $(image8).mouseenter(function(){
+               $("#image8").css("display", "none");
+               $("#card8").css("display", "block");
+               $(video8).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image8").css("display", "none");
+                 $("#card8").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image8").css("display", "block");
+                 $("#card8").css("display", "none");              
+             })
+             })
+           });
+          
+          // Getting video element using jQuery
+           var video9 = $("#video9");
+           var image9 = $("#image9");
+           
+           // Check if video is ready to play
+           $(video9).on('canplay', function(){
+             $(image9).mouseenter(function(){
+               $("#image9").css("display", "none");
+               $("#card9").css("display", "block");
+               $(video9).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image9").css("display", "none");
+                 $("#card9").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image9").css("display", "block");
+                 $("#card9").css("display", "none");              
+             })
+             })
+           });
+          
+          // Getting video element using jQuery
+           var video10 = $("#video10");
+           var image10 = $("#image10");
+           
+           // Check if video is ready to play
+           $(video10).on('canplay', function(){
+             $(image10).mouseenter(function(){
+               $("#image10").css("display", "none");
+               $("#card10").css("display", "block");
+               $(video10).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image10").css("display", "none");
+                 $("#card10").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image10").css("display", "block");
+                 $("#card10").css("display", "none");              
+             })
+             })
+           });
+          
+          // Getting video element using jQuery
+           var video11 = $("#video11");
+           var image11 = $("#image11");
+           
+           // Check if video is ready to play
+           $(video11).on('canplay', function(){
+             $(image11).mouseenter(function(){
+               $("#image11").css("display", "none");
+               $("#card11").css("display", "block");
+               $(video11).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image11").css("display", "none");
+                 $("#card11").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image11").css("display", "block");
+                 $("#card11").css("display", "none");              
+             })
+             })
+           });
+          
+          // Getting video element using jQuery
+           var video12 = $("#video12");
+           var image12 = $("#image12");
+           
+           // Check if video is ready to play
+           $(video12).on('canplay', function(){
+             $(image12).mouseenter(function(){
+               $("#image12").css("display", "none");
+               $("#card12").css("display", "block");
+               $(video12).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image12").css("display", "none");
+                 $("#card12").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image12").css("display", "block");
+                 $("#card12").css("display", "none");              
+             })
+             })
+           });
+          
+          // Getting video element using jQuery
+           var video13 = $("#video13");
+           var image13 = $("#image13");
+           
+           // Check if video is ready to play
+           $(video13).on('canplay', function(){
+             $(image13).mouseenter(function(){
+               $("#image13").css("display", "none");
+               $("#card13").css("display", "block");
+               $(video13).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image13").css("display", "none");
+                 $("#card13").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image13").css("display", "block");
+                 $("#card13").css("display", "none");              
+             })
+             })
+           });
+          
+          // Getting video element using jQuery
+           var video14 = $("#video14");
+           var image14 = $("#image14");
+           
+           // Check if video is ready to play
+           $(video14).on('canplay', function(){
+             $(image14).mouseenter(function(){
+               $("#image14").css("display", "none");
+               $("#card14").css("display", "block");
+               $(video14).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image14").css("display", "none");
+                 $("#card14").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image14").css("display", "block");
+                 $("#card14").css("display", "none");              
+             })
+             })
+           });
+          
+          // Getting video element using jQuery
+           var video15 = $("#video15");
+           var image15 = $("#image15");
+           
+           // Check if video is ready to play
+           $(video15).on('canplay', function(){
+             $(image15).mouseenter(function(){
+               $("#image15").css("display", "none");
+               $("#card15").css("display", "block");
+               $(video15).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image15").css("display", "none");
+                 $("#card15").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image15").css("display", "block");
+                 $("#card15").css("display", "none");              
+             })
+             })
+           });
+          
+          // Getting video element using jQuery
+           var video16 = $("#video16");
+           var image16 = $("#image16");
+           
+           // Check if video is ready to play
+           $(video16).on('canplay', function(){
+             $(image16).mouseenter(function(){
+               $("#image16").css("display", "none");
+               $("#card16").css("display", "block");
+               $(video16).mouseenter(function(){
+                 $(this).get(0).play();
+                 $("#image16").css("display", "none");
+                 $("#card16").css("display", "block");
+               }).mouseleave(function(){
+                 $(this).get(0).pause();
+                 $("#image16").css("display", "block");
+                 $("#card16").css("display", "none");              
+             })
+             })
+           });
+           // Getting video element using jQuery
+        var img1 = $("#img1");          
+           // Check if video is ready to play
+             $(img1).mouseenter(function(){
+               $("#img1").css("display", "none");
+               $("#cd1").css("display", "block");
+               $(img1).mouseenter(function(){
+                 $("#img1").css("display", "none");
+                 $("#cd1").css("display", "block");
+               }).mouseleave(function(){
+                 $("#img1").css("display", "block");
+                 $("#cd1").css("display", "none");              
+             })
+             });
+          // Getting video element using jQuery
+        var img2 = $("#img2");          
+           // Check if video is ready to play
+             $(img2).mouseenter(function(){
+               $("#img2").css("display", "none");
+               $("#cd2").css("display", "block");
+               $(img2).mouseenter(function(){
+                 $("#img2").css("display", "none");
+                 $("#cd2").css("display", "block");
+               }).mouseleave(function(){
+                 $("#img2").css("display", "block");
+                 $("#cd2").css("display", "none");              
+             })
+             });
+          // Getting video element using jQuery
+        var img3 = $("#img3");          
+           // Check if video is ready to play
+             $(img3).mouseenter(function(){
+               $("#img3").css("display", "none");
+               $("#cd3").css("display", "block");
+               $(img3).mouseenter(function(){
+                 $("#img3").css("display", "none");
+                 $("#cd3").css("display", "block");
+               }).mouseleave(function(){
+                 $("#img3").css("display", "block");
+                 $("#cd3").css("display", "none");              
+             })
+             });
+          // Getting video element using jQuery
+        var img4 = $("#img4");          
+           // Check if video is ready to play
+             $(img4).mouseenter(function(){
+               $("#img4").css("display", "none");
+               $("#cd4").css("display", "block");
+               $(img4).mouseenter(function(){
+                 $("#img4").css("display", "none");
+                 $("#cd4").css("display", "block");
+               }).mouseleave(function(){
+                 $("#img4").css("display", "block");
+                 $("#cd4").css("display", "none");              
+             })
+             });
+
+      </script>
+  </body>
+</html>   
